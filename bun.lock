@@ -6,6 +6,7 @@
       "dependencies": {
         "@react-router/express": "^7.5.3",
         "@react-router/node": "^7.5.3",
+        "body-parser": "^2.2.0",
         "compression": "^1.7.5",
         "eslint-config-prettier": "^10.1.5",
         "eslint-plugin-prettier": "^5.5.1",

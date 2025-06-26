@@ -1,6 +1,7 @@
 import 'react-router';
 import { createRequestHandler } from '@react-router/express';
 import express from 'express';
+import bodyParser from 'body-parser';
 
 declare module 'react-router' {
   interface AppLoadContext {
@@ -9,6 +10,9 @@ declare module 'react-router' {
 }
 
 export const app = express();
+
+app.use(express.json());
+app.use(bodyParser.json());
 
 app.use(
   createRequestHandler({
