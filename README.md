@@ -84,5 +84,7 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
 # supabase-ssr-react-router-login
+
 # supabase-ssr-react-router-login
