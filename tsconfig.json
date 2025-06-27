@@ -5,10 +5,14 @@
     { "path": "./tsconfig.vite.json" }
   ],
   "compilerOptions": {
+    "rootDirs": [".", "./.react-router/types"],
     "checkJs": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "strict": true,
-    "noEmit": true
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./app/*"]
+    }
   }
 }
